@@ -11,9 +11,7 @@ export const Top = styled.View`
   margin-bottom: 10px;
 `
 export const Logo = styled.Image`
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 10px;
+  
 `
 
 export const Title = styled.Text`
