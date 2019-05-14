@@ -11,7 +11,7 @@ import Menu from '~/components/Menu';
 import Tabs from '~/components/Tabs';
 
 export default function Main() {
-  let offset = 0; 
+  let offset = 0;
 
   const translateY = new Animated.Value(0);
 
@@ -82,12 +82,11 @@ export default function Main() {
             </CardContent>
             <CardFooter>
               <Annotation>
-                Transferencia de R$ 10,00 recebido de Pedro Domingues as 18h
+                Transferencia de R$ 10,00 recebido de Pedro Domingues hoje as 18:00
               </Annotation>
             </CardFooter>
           </Card>
         </PanGestureHandler>
-        
       </Content>
 
       <Tabs translateY={translateY} />
